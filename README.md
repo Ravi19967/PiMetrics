@@ -30,7 +30,7 @@ sudo chown -R 65534:65534 prometheus/
 
  - Start the stack with `docker-compose`.
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This will start all the containers and make them available on the host machine.
